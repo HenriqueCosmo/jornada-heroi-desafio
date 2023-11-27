@@ -30,8 +30,8 @@ let victoriesHero = -1;
 let defeatsHero = 5;
 
 function matchStatistics(victories, defeats) {
-    let sum = victories - defeats;
-    return sum;
+    let calculation = victories - defeats;
+    return calculation;
 }
 let results = matchStatistics(victoriesHero, defeatsHero);
 
